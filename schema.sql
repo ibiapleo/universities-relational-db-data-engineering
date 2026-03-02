@@ -1,5 +1,5 @@
 CREATE TABLE universities (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    id VARCHAR(36) PRIMARY KEY AUTOINCREMENT,
     name TEXT NOT NULL,
     country TEXT NOT NULL,
     state_province TEXT,
